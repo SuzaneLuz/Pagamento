@@ -54,11 +54,9 @@
             <input type="number" id="horas">
         </div>
         <button onclick="calcularPagamento()">Calcular Pagamento</button>
-        <div class="result" id="resultado"></div>
-        <div class="link">
-            <a href="pagamento.html">Recarregar Página</a>
         </div>
     </div>
+        
 
     <script>
         function calcularPagamento() {
