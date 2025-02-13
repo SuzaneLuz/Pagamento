@@ -33,6 +33,9 @@
             margin-top: 20px;
             font-weight: bold;
         }
+        .link {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -52,6 +55,9 @@
         </div>
         <button onclick="calcularPagamento()">Calcular Pagamento</button>
         <div class="result" id="resultado"></div>
+        <div class="link">
+            <a href="pagamento.html">Recarregar Página</a>
+        </div>
     </div>
 
     <script>
